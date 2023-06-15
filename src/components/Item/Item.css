@@ -1,0 +1,7 @@
+.CardItem {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+}

@@ -1,0 +1,15 @@
+.Controls {
+    display: flex;
+    justify-content: center;
+}
+
+.Number {
+    display: block;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.button { 
+    margin-left: 15px;
+}

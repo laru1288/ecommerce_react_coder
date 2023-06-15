@@ -1,0 +1,35 @@
+.Titulo{
+    color: rgb(121, 118, 120);
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.Botones {
+    display: flex;
+    justify-content:left;
+    width: 100%;
+}
+
+.Boton{
+    background-color: pink;
+    color:black;
+    margin-right: 5px;
+}
+
+.Boton:hover {
+    background-color: rgba(100, 72, 72, 0.555);
+    transform: scale(1.2);
+    transition: .5s ease;
+}
+
+.CarritoContador{
+    display: flex;
+    margin-right: 10px;
+}
