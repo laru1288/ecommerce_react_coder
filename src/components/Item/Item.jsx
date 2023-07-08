@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom'
 
 const Item = ({id, name, img, price, stock}) => {
 
-    return (<article className='CardItem'>
+    return (
+    <article className='CardItem'>
         <header className='Header'>
             <h2 className='ItemHeader'>
                 {name}
@@ -17,7 +18,7 @@ const Item = ({id, name, img, price, stock}) => {
                 Precio: ${price}
             </p>
             <p className='Info'>
-                Stock disponible {stock}
+                Stock disponible: {stock}
             </p>
         </section>
         <footer className='ItemFooter'>
