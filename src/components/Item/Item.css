@@ -1,8 +1,10 @@
 .CardItem {
-    margin: 5%;
-    color: rgb(71, 44, 33);
-    border-radius: 15px;
-    max-width: 550px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(170, 128, 115, 0.514);
+    min-height: 800px;
+    min-width: 550px;
+    margin: 5px;
 }
 
 .Info{
@@ -19,4 +21,5 @@
 
 .ItemImg{
     align-self: auto;
+    border-radius: 15px;
 }

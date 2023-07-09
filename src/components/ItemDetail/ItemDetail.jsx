@@ -20,7 +20,7 @@ const ItemDetail = ({ id, name, img, category, description, price, stock}) => {
     }
 
     return (
-        <article className='CardItem'>
+        <article className='CardIten'>
             <header className='Header'>
                 <h2 className='ItemHeader'>
                     {name}

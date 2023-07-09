@@ -11,6 +11,7 @@ import {
     where,
     documentId,
 } from "firebase/firestore";
+import './Checkout.css'
 
 const Checkout = () => {
     const [loading, setLoading] = useState(false)
@@ -71,18 +72,18 @@ const Checkout = () => {
     }
 
     if (loading) {
-        return <h1>Se esta generando su orden...</h1>
+        return <h1 className="checkout">Se esta generando su orden...</h1>
 
     }
 
     if (orderId) {
-        return <h1 className="checkout__h1">El Id de su compra es: {orderId} </h1>;
+        return <h1 className="checkout">El Id de su compra es: {orderId} </h1>;
 
     }
 
     return (
-        <div>
-            <h1>Checkout</h1>
+        <div className='checkout'>
+            <h1 className='titul'>Checkout</h1>
             <CheckoutForm onConfirm={createOrder} />
         </div>
     )
