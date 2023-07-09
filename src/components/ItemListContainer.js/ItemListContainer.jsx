@@ -38,7 +38,7 @@ const ItemListContainer = ({ greeting }) => {
                 <p>Cargando producto...</p>
             ) : (
                 <>
-                    <h2></h2>
+                    <h2>¡La gran cafeteria!</h2>
                     <h4>{categoryId}</h4>
                     <p>{greeting}</p>
                     <div>
