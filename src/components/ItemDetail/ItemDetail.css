@@ -1,5 +1,10 @@
 .CardItem {
     border-radius: 5px;
     padding: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(170, 128, 115, 0.514);
+    min-height: 800px;
+    min-width: 550px;
 }
 

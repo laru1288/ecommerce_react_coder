@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import { CartContext } from '../../context/CartContext';
+import trash from './assets/trash.svg'
 
 const CartItem = ({ id, name, price, quantity }) => {
     const { removeItem } = useContext(CartContext);
@@ -26,7 +27,7 @@ const CartItem = ({ id, name, price, quantity }) => {
             className="Button"
             onClick={() => removeItem(id)}
           >
-            
+            <img src={trash} alt="trash"/>
           </button>
         </div>
       </div>

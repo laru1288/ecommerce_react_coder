@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.cartItems {
+    background-color: rgb(236, 215, 219);
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(71, 44, 33);
+
+}
+
+

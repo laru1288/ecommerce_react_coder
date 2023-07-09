@@ -1,5 +1,6 @@
-.cart {
-    display: flex;
-    align-items: center;
+.CartWidget{
+    color: rgb(71, 44, 33);
     margin: 5px;
+    padding: 2px;
+    font-size: large;
 }
